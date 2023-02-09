@@ -1,0 +1,456 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Register 1</title>    
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/media.css" rel="stylesheet" type="text/css" />
+    <!--<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">--> 
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Font Awesome 6 -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="js/lightslider.js"></script> 
+    <!-- AOS -->
+    <!--<link rel="stylesheet" href="css/aos.css">
+    <script src="js/aos.js"></script>-->
+     <script src="js/validate.js"></script>
+     <script>
+		jQuery(function() {
+			jQuery("#name").validate({
+				expression: "if (VAL) return true; else return false;",
+				message: "Please enter the Required field"
+			});
+			jQuery("#cName").validate({
+				expression: "if (VAL) return true; else return false;",
+				message: "Please enter the Required field"
+			});
+			jQuery("#address").validate({
+				expression: "if (VAL) return true; else return false;",
+				message: "Please enter the Required field"
+			});
+			jQuery("#city").validate({
+				expression: "if (VAL) return true; else return false;",
+				message: "Please enter the Required field"
+			});
+			jQuery("#state").validate({
+				expression: "if (VAL) return true; else return false;",
+				message: "Please enter the Required field"
+			});
+			jQuery("#country").validate({
+				expression: "if (VAL) return true; else return false;",
+				message: "Please enter the Required field"
+			});
+			jQuery("#pincode").validate({
+				expression: "if (VAL) return true; else return false;",
+				message: "Please enter the Required field"
+			});
+			jQuery("#email").validate({
+				expression: "if (VAL.match(/^[^\\W][a-zA-Z0-9\\_\\-\\.]+([a-zA-Z0-9\\_\\-\\.]+)*\\@[a-zA-Z0-9_]+(\\.[a-zA-Z0-9_]+)*\\.[a-zA-Z]{2,4}$/)) return true; else return false;",
+				message: "Should be a valid Email id"
+			});
+			jQuery("#mobile").validate({
+				//expression: "if (VAL.match(/^[9][0-9]{9}$/)) return true; else return false;",
+				expression: "if (VAL.match(/^[0-9-+]+$/)) return true; else return false;",
+				message: "Should be a valid Mobile Number"
+			});
+			jQuery('#BrowserHidden').validate({
+				rules: {
+					image: {
+					  required: true,
+					  extension:'jpe?g,png',
+					  uploadFile:true,
+					}
+				}
+          	});
+
+			
+			/****************Professional Registration Page*******************/
+			jQuery("#name1").validate({
+				expression: "if (VAL) return true; else return false;",
+				message: "Please enter the Required field"
+			});
+			jQuery("#firmName").validate({
+				expression: "if (VAL) return true; else return false;",
+				message: "Please enter the Required field"
+			});
+			jQuery("#address1").validate({
+				expression: "if (VAL) return true; else return false;",
+				message: "Please enter the Required field"
+			});
+			jQuery("#city1").validate({
+				expression: "if (VAL) return true; else return false;",
+				message: "Please enter the Required field"
+			});
+			jQuery("#state1").validate({
+				expression: "if (VAL) return true; else return false;",
+				message: "Please enter the Required field"
+			});
+			jQuery("#country1").validate({
+				expression: "if (VAL) return true; else return false;",
+				message: "Please enter the Required field"
+			});
+			jQuery("#pincode1").validate({
+				expression: "if (VAL) return true; else return false;",
+				message: "Please enter the Required field"
+			});
+			jQuery("#email1").validate({
+				expression: "if (VAL.match(/^[^\\W][a-zA-Z0-9\\_\\-\\.]+([a-zA-Z0-9\\_\\-\\.]+)*\\@[a-zA-Z0-9_]+(\\.[a-zA-Z0-9_]+)*\\.[a-zA-Z]{2,4}$/)) return true; else return false;",
+				message: "Should be a valid Email id"
+			});
+			jQuery("#mobile1").validate({
+				//expression: "if (VAL.match(/^[9][0-9]{9}$/)) return true; else return false;",
+				expression: "if (VAL.match(/^[0-9-+]+$/)) return true; else return false;",
+				message: "Should be a valid Mobile Number"
+			});
+			jQuery("#gstNo").validate({
+				expression: "if (VAL) return true; else return false;",
+				message: "Please enter the Required field"
+			});
+			
+		});
+	</script>
+</head>
+<body>
+<div class="loaderSec">
+    <div class="loaderInn">
+        <div class="loadImg">
+        	<img src="images/loader.gif" alt="Loader" />
+        </div>
+    </div>
+</div>
+<div class="flipBookSec" id="pdf1C" style="visibility:hidden;">
+	<div class="flipBookInn">
+    	<div class="flipBookPdf">
+        <div class="close">X</div>
+    	<iframe style='width:900px;height:500px' src='https://www.jasubhaimedia.com/iab/digital/'  seamless='seamless' scrolling='no' frameborder='0' allowtransparency='true' allowfullscreen='true' ></iframe>
+        </div>
+    </div>
+</div>
+
+
+<div class="mainWrapper" style="display:none;">
+    <div id="magazineWrap" class="mainInner361">
+        <header>
+            <div class="headInn">
+                <div class="headerTop">
+                    <a href="https://twitter.com/hashtag/indianarchitectandbuilder" target="_blank"><i class="fab fa-twitter"></i></a> <a href="https://www.instagram.com/iabmag/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a> <a href="https://in.linkedin.com/in/sudhanshu-nagar-546282135?challengeId=AQEDiQv80eMc2wAAAXSH52YYaYBma-00QBUvnWCSFt5oEMPZJIiriIPwSOHSc6QLZ1Zt4e4LPMBPLFpdKbAURCPnYcx-IlwC1Q&submissionId=38f3c491-ba5e-3416-efbc-ca21942e6078" target="_blank"><i class="fab fa-linkedin-in"></i></a> <a href="https://m.facebook.com/indian.architect.and.builder" target="_blank"><i class="fab fa-facebook-f"></i></a>   <a href="mailto:sudhanshu_nagar@jasubhai.com" target="_blank"><i class="far fa-envelope"></i></a>
+                </div>
+                <div class="clear>"></div>
+                <div class="headerBtm">
+                    <div class="logoSec">
+                        <a href="#"><img src="images/logo_3.png" alt=""></a>
+                    </div>
+                    <div class="mobMenu">
+                        <img src="images/mobileMenu.png" alt="Mobile Menu Icon"/>
+                    </div>
+                    <div class="headerMenu headerMenu361">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="https://jasubhaimedia.com/" target="_blank">Jasubhai Group</a></li>
+                            <li><a href="#">Architecture</a>
+                            	<ul>
+                                  <li><a href="magazine.html">Magazine</a></li>
+                                  <li><a href="media_kit.html">Media Kit</a></li>
+                              	</ul>
+                            </li>
+                            <li><a href="register_1.html">Design &amp; Inspiration</a>
+                            	<ul>
+                                  <li><a href="361_stories_of_inspiration.html">361<sup>°</sup> Stories Of Inspiration</a></li>
+                                  <li><a href="#">Program</a></li>
+                                  <li><a href="#">Speaker Profile</a></li>
+                                  <li><a href="register_1.html">Register</a></li>
+                                  <li><a href="legacy.html">Legacy</a></li>
+                              	</ul>
+                            </li>
+                            <li><a href="#">Education</a></li>
+                            <li><a href="#">Infrastructure</a></li>
+                            <li><a href="media_kit.html">Media Kit</a>
+                            	<ul>
+                                  <li><a href="media_kit.html">Advertise With Us</a></li>
+                              	</ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </header>
+        <section class="content361Sec">
+        	<div class="contWrap361" id="tab1C">
+                <div class="contRegLeft cont361Left">
+                	<div class="contReg1LeftInn">
+                    	<div class="contRegLeftInnTop">
+                    		<h4>Register</h4>
+                            <div class="contRegLeftInnImg">
+                            	<img src="images/image_3.jpg" alt="Image" /> <img src="images/image_3.jpg" alt="Image" />
+                            </div>
+                        </div>
+                        <div class="contRegLeftInnBtm">
+                        	<table cellpadding="0" cellspacing="0">
+                            	<tr>
+                                	<th><label><input type="radio" name="business" id="stud"/> Students</label></th>
+                                    <th><label><input type="radio"  name="business" id="prof"/> Professionals</label></th>
+                                </tr>
+                                <tr>
+                                	<td><label><input type="radio" name="amount1"/> India- RS 500</label></td>
+                                    <td><label><input type="radio" name="amount1"/> India- RS 10000</label></td>
+                                </tr>
+                                <tr>
+                                	<td><label><input type="radio" name="amount1"/> International - $10</label></td>
+                                    <td><label><input type="radio" name="amount1"/> International - $200</label></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+         		</div>
+                <div class="contRegRight1 cont361Right bgNone">
+                	<div id="regForm1" class="regFrom1 regFrom">
+                    	<h2 class="regFormHead1">Student Registration Form</h2>
+                        <div class="regFrom1Inn">
+                        <form name="register" action="" method="POST">
+                            <div class="regFormRow">
+                                <label>Name</label>
+                                <p><input type="text" id="name"/></p>
+                                <!--<span>Please enter required field</span>-->
+                            </div>
+                            <div class="regFormRow">
+                                <label>College/Institution Name</label>
+                                <p><input type="text" id="cName"/></p>
+                                <!--<span>Please enter required field</span>-->
+                            </div>
+                            <div class="regFormRow">
+                                <label>Address -1</label>
+                                <p><input type="text" id="address"/></p>
+                                <!--<span>Please enter required field</span>-->
+                            </div>
+                            <div class="regFormRow">
+                                <label>Address -2</label>
+                                <p><input type="text"/></p>
+                            </div>
+                            <div class="regFormRow">
+                                <label>City</label>
+                                <p><input type="text" id="city"/></p>
+                            </div>
+                            <div class="regFormRow">
+                                <label>State</label>
+                                <p><input type="text" id="state"/></p>
+                                <!--<span>Please enter required field</span>-->
+                            </div>
+                            <div class="regFormRow">
+                                <label>Country</label>
+                                <p><input type="text" id="country"/></p>
+                                <!--<span>Please enter required field</span>-->
+                            </div>
+                            <div class="regFormRow">
+                                <label>Pin</label>
+                                <p><input type="text" id="pincode"/></p>
+                            </div>	
+                            <div class="regFormRow">
+                                <label>Email</label>
+                                <p><input type="text" id="email"/></p>
+                            </div>
+                            <div class="regFormRow">
+                                <label>Mobile</label>
+                                <p><input type="text" id="mobile" maxlength="10"/></p>
+                            </div>
+                            <div class="regFormRow regFormRowSt ">
+                                <label>Student ID Upload</label>
+                                <div class="order-browse-div">
+                                    <div id="FileUpload">
+                                        <input type="file" size="50" id="BrowserHidden" onChange="getElementById('FileField').value = getElementById('BrowserHidden').value;" name="fileAttach">
+                                        <div id="BrowserVisible4"><input type="text" id="FileField"><i>(jpg,png or pdf)</i></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="regFormRow">
+                                <p><input type="submit" value="Register" class="inpBtn"/></p>
+                            </div>
+                        </div>
+                        </form>
+                    </div>
+                    <div id="regForm2" class="regFrom1 regFrom">
+                    	<h2 class="regFormHead2">Professional Registration Form</h2>
+                        <div class="regFrom2Inn">
+                         <form name="register1" action="" method="POST">
+                            <div class="regFormRow">
+                                <label>Name</label>
+                                <p><input type="text" id="name1"/></p>
+                                <!--<span>Please enter required field</span>-->
+                            </div>
+                            <div class="regFormRow">
+                                <label>Firm Name</label>
+                                <p><input type="text" id="name" id="firmName"/></p>
+                                <!--<span>Please enter required field</span>-->
+                            </div>
+                            <div class="regFormRow">
+                                <label>Address -1</label>
+                                <p><input type="text" id="address1"/></p>
+                                <!--<span>Please enter required field</span>-->
+                            </div>
+                            <div class="regFormRow">
+                                <label>Address -2</label>
+                                <p><input type="text"/></p>
+                            </div>
+                            <div class="regFormRow">
+                                <label>City</label>
+                                <p><input type="text" id="city1"/></p>
+                            </div>
+                            <div class="regFormRow">
+                                <label>State</label>
+                                <p><input type="text" id="state1"/></p>
+                                <!--<span>Please enter required field</span>-->
+                            </div>
+                            <div class="regFormRow">
+                                <label>Country</label>
+                                <p><input type="text" id="country1"/></p>
+                                <!--<span>Please enter required field</span>-->
+                            </div>
+                            <div class="regFormRow">
+                                <label>Pin</label>
+                                <p><input type="text" id="pincode1"/></p>
+                            </div>	
+                            <div class="regFormRow">
+                                <label>Email</label>
+                                <p><input type="text" id="email1"/></p>
+                            </div>
+                            <div class="regFormRow">
+                                <label>Mobile</label>
+                                <p><input type="text" id="mobile1"/></p>
+                            </div>
+                            <div class="regFormRow">
+                                <label>GST No</label>
+                                <p><input type="text" id="gstNo"/></p>
+                            </div>
+                            <div class="regFormRow">
+                                <p><input class="inpBtn" type="submit" value="Register"/></p>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            
+            <div class="regRecvd">
+            	<div class="regRcv_1">NB : All Registered Students will get Digital Certificate</div> 
+            	<div class="regRcv_2">Registration Received till "<span id="currentDate"></span>"</div> 
+            	<div class="regRcv_3">250</div>
+            </div>
+            
+            <div class="regCont">
+                <div class="regContInn">
+                	<a href="program.html" target="_blank"><h3>Program</h3></a>
+                </div>
+                <div class="regContInn">
+                	<a href="speaker-profile.html" target="_blank"><h3>Speaker Profile</h3></a>
+                </div>
+            </div>
+            
+        </section>
+        <footer class="footerSec">
+    	<div class="footerInn">
+        	<div class="ftLeft">
+            	<h3>Jasubhai Group &amp; Chemtech Foundation</h3>
+                <p><strong>Corporate Office:-</strong> 26, Maker Chamber VI, 2nd Floor, Nariman Point, Mumbai - 400001 India.</p>
+                <p><a href="tel:+912240373737%20"><strong>Tel:</strong> +91-22-40373737</a> <br/><a href="tel:912222870502"><strong>Fax:</strong> +91-22-22870502</a></p>
+            	<p>Copyright &copy; 2020 Jasubhai Media. All rights reserved.</p>
+            </div>        	
+        </div>
+    	</footer>
+ 	</div>
+    
+</div>
+<script>
+
+var pdf1 = "https://www.jasubhaimedia.com/iab/digital/";
+
+
+$('.mediaKitHead').click(function(){
+    var t = $(this).attr('id');
+	//alert(t);
+	//$(".flipBookSec").animate({visibility: 'hidden'});
+	$('.flipBookSec').css('visibility','hidden');
+	$('#'+ t + 'C').css('visibility','visible');
+	if(t == "pdf1"){
+		$("iframe").attr("src", pdf1);
+		//alert("Hi");
+	}
+	if(t == "pdf2"){
+		$("iframe").attr("src", pdf2);
+	}
+	if(t == "pdf3"){
+		$("iframe").attr("src", pdf3);
+	}
+	if(t == "pdf4"){
+		$("iframe").attr("src", pdf4);
+	}
+	if(t == "pdf5"){
+		$("iframe").attr("src", pdf5);
+	}
+	//$('body').css('overflow','hidden');
+  
+});
+
+
+$('#stud').click(function(){
+    var t = $(this).attr('id');
+	//alert(t);
+	$('#regForm2').css('opacity','0.1');
+	$('#regForm1').css('opacity','1');
+});
+$('#prof').click(function(){
+    var t = $(this).attr('id');
+	//alert(t);
+	$('#regForm2').css('opacity','1');
+	$('#regForm1').css('opacity','0.1');
+});
+
+$('.close').click(function(){
+	$('.flipBookSec').css('visibility','hidden');
+	//$(this).next().css('display','none');
+	var u = $(this).next().removeAttr("src");
+	//alert(u);
+});
+
+
+window.onload = function() {
+  $('.loaderSec').hide();
+  $('.mainWrapper').show();
+  
+  $("#content-slider").lightSlider({
+		loop:true,
+		item:4,
+		auto:true,
+		keyPress:true
+	});
+	
+	$('.mobMenu').click(function(){
+  	$('.headerMenu').slideToggle("slow");
+  });
+	
+};
+
+/*$(document).ready(function () { 
+	if($('#stud').prop('checked')===true) {
+		$('#regForm2').css('opacity','0.2');
+		$('#regForm1').css('opacity','1');
+	});
+});*/
+
+	const monthNames = ["January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"];
+    let dateObj = new Date();
+    let month = monthNames[dateObj.getMonth()];
+    let day = String(dateObj.getDate()).padStart(2, '0');
+    let year = dateObj.getFullYear();
+    let output = month  + '\n'+ day  + ',' + year;
+
+    document.querySelector('#currentDate').textContent = output;
+</script>
+
+
+</body>
